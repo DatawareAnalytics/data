@@ -65,7 +65,7 @@ export default function Home() {
                       <PageText>{DataAnalysis.content}</PageText>
                       <ButtonLarge onClick={()=>window.location.pathname=navigate(DataAnalysis.link)}>Follow Me &nbsp;<MdArrowForward/></ButtonLarge>
                     </CardColumn>
-                    <Image alt='Software Picture' src={DataAnalysis.image} />
+                    <Image  alt='Software Picture' src={DataAnalysis.image} />
                 </Rows>
             </Card>
             </Rotate>
