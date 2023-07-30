@@ -1,7 +1,7 @@
 {
   "name": "data",
   "version": "0.1.0",
-  "homepage":"https://datawareanalytics.github.io/data/#",
+  "homepage":"https://datawareanalytics.github.io/data/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
