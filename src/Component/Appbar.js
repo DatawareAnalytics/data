@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import styled from 'styled-components'
 import { MdClose, MdMenuOpen } from 'react-icons/md'
+import { Link } from 'react-router-dom'
 
 export default function Appbar() {
     const [showMenu, setShowMenu] = useState(false)
@@ -12,10 +13,10 @@ export default function Appbar() {
           <BrandText>Analytics</BrandText>
         </BrandWrapper>
         <Nav showMenu={showMenu} onClick={()=>setShowMenu(!showMenu)}>
-            <NavLinks onClick={()=>window.location.pathname='/'}>Home</NavLinks>
-            <NavLinks onClick={()=>window.location.pathname='/Our-Services'}>Services</NavLinks>
-            <NavLinks onClick={()=>window.location.pathname='/Courses'}>Training</NavLinks>
-            <NavLinks onClick={()=>window.location.pathname='/About'}>About</NavLinks>
+            <NavLinks to='/'>Home</NavLinks>
+            <NavLinks to='/Our-Services'>Services</NavLinks>
+            <NavLinks to='/Courses'>Training</NavLinks>
+            <NavLinks to='/About'>About</NavLinks>
         </Nav>
         <Hamburger>
             <Icon>
@@ -79,12 +80,15 @@ z-index: 100;
 height: 100vh;
 }
 `
-const NavLinks = styled.div`
+const NavLinks = styled(Link)`
 padding: 10px;
 font-size: 18px;
 font-weight: bold;
 color: inherit;
 width: 100%;
+list-style: none;
+text-decoration: none;
+list-style-type: none;
 cursor: pointer;
 
 :hover{
