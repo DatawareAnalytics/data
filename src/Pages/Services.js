@@ -4,8 +4,10 @@ import { ButtonLarge, PageText, PageTitle, Text, Title } from '../GlobalStyled'
 import { DataAnalysis, MLData, SoftData } from '../data/Data'
 import { Rotate } from 'react-reveal'
 import { MdArrowForward } from 'react-icons/md'
+import { useNavigate } from 'react-router-dom'
 
 export default function Home() {
+  const navigate  = useNavigate()
   useEffect(()=>{
     return(()=>document.title = 'Our Services')
   })
@@ -61,7 +63,7 @@ export default function Home() {
                     <CardColumn>
                       <PageTitle>{DataAnalysis.title}</PageTitle>
                       <PageText>{DataAnalysis.content}</PageText>
-                      <ButtonLarge onClick={()=>window.location.pathname=DataAnalysis.link}>Follow Me &nbsp;<MdArrowForward/></ButtonLarge>
+                      <ButtonLarge onClick={()=>window.location.pathname=navigate(DataAnalysis.link)}>Follow Me &nbsp;<MdArrowForward/></ButtonLarge>
                     </CardColumn>
                     <Image alt='Software Picture' src={DataAnalysis.image} />
                 </Rows>
@@ -73,7 +75,7 @@ export default function Home() {
                     <CardColumn>
                       <PageTitle>{MLData.title}</PageTitle>
                       <PageText>{MLData.content}</PageText>
-                      <ButtonLarge onClick={()=>window.location.pathname=MLData.link}>Follow Me &nbsp;<MdArrowForward/></ButtonLarge>
+                      <ButtonLarge onClick={()=>window.location.pathname=navigate(DataAnalysis.link)}>Follow Me &nbsp;<MdArrowForward/></ButtonLarge>
                     </CardColumn>
                     <Image alt='Software Picture' src={MLData.image} />
                 </Rows>
