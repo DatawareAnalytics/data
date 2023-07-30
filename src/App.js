@@ -24,6 +24,7 @@ export default function App() {
     <>
       <GlobalStyle/>
       <Appbar/>
+      <Home/>
       <Container>
         <Routes>
             <Route path='/' exact index element={<Home/>} />
