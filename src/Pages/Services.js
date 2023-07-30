@@ -51,7 +51,7 @@ export default function Home() {
                     <CardColumn>
                       <PageTitle>{SoftData.title}</PageTitle>
                       <PageText>{SoftData.content}</PageText>
-                      <ButtonLarge onClick={()=>window.location.pathname=SoftData.link}>Follow Me &nbsp;<MdArrowForward/> </ButtonLarge>
+                      <ButtonLarge onClick={()=>navigate(SoftData.link)}>Follow Me &nbsp;<MdArrowForward/> </ButtonLarge>
                     </CardColumn>
                     <Image alt='Software Picture' src={SoftData.image} />
                 </Rows>
@@ -63,7 +63,7 @@ export default function Home() {
                     <CardColumn>
                       <PageTitle>{DataAnalysis.title}</PageTitle>
                       <PageText>{DataAnalysis.content}</PageText>
-                      <ButtonLarge onClick={()=>window.location.pathname=navigate(DataAnalysis.link)}>Follow Me &nbsp;<MdArrowForward/></ButtonLarge>
+                      <ButtonLarge onClick={()=>navigate(DataAnalysis.link)}>Follow Me &nbsp;<MdArrowForward/></ButtonLarge>
                     </CardColumn>
                     <Image  alt='Software Picture' src={DataAnalysis.image} />
                 </Rows>
@@ -75,7 +75,7 @@ export default function Home() {
                     <CardColumn>
                       <PageTitle>{MLData.title}</PageTitle>
                       <PageText>{MLData.content}</PageText>
-                      <ButtonLarge onClick={()=>window.location.pathname=navigate(DataAnalysis.link)}>Follow Me &nbsp;<MdArrowForward/></ButtonLarge>
+                      <ButtonLarge onClick={()=>navigate(MLData.link)}>Follow Me &nbsp;<MdArrowForward/></ButtonLarge>
                     </CardColumn>
                     <Image alt='Software Picture' src={MLData.image} />
                 </Rows>
