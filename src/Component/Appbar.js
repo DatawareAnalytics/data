@@ -12,10 +12,10 @@ export default function Appbar() {
           <BrandText>Analytics</BrandText>
         </BrandWrapper>
         <Nav showMenu={showMenu} onClick={()=>setShowMenu(!showMenu)}>
-            <NavLinks onClick={()=>window.location.pathname='/'}>Home</NavLinks>
-            <NavLinks onClick={()=>window.location.pathname='/Our-Services'}>Services</NavLinks>
-            <NavLinks onClick={()=>window.location.pathname='/Courses'}>Training</NavLinks>
-            <NavLinks onClick={()=>window.location.pathname='/About'}>About</NavLinks>
+            <NavLinks onClick={()=>window.location.pathname='/data'}>Home</NavLinks>
+            <NavLinks onClick={()=>window.location.pathname='/data/Our-Services'}>Services</NavLinks>
+            <NavLinks onClick={()=>window.location.pathname='/data/Courses'}>Training</NavLinks>
+            <NavLinks onClick={()=>window.location.pathname='/data/About'}>About</NavLinks>
         </Nav>
         <Hamburger>
             <Icon>

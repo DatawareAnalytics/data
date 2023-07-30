@@ -26,11 +26,11 @@ export default function App() {
       <Appbar/>
       <Container>
         <Routes>
-            <Route path='/' exact index element={<Home/>} />
+            <Route path='/data' exact index element={<Home/>} />
             <Route path='*' exact index element={<Home/>} />
-            <Route path='/Courses' element={<Courses/>} />
-            <Route path='/About' element={<About/>} />
-            <Route path='/Our-Services' element={<Services/>} />
+            <Route path='/data/Courses' element={<Courses/>} />
+            <Route path='/data/About' element={<About/>} />
+            <Route path='/data/Our-Services' element={<Services/>} />
             <Route path='/Data-Analysis-Services' element={<DataServices/>} />
             <Route path='/Software-Development-Services' element={<WebDev/>} />
             <Route path='/AI-Services' element={<AI/>} />
