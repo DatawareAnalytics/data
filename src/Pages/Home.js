@@ -2,9 +2,11 @@ import React from 'react'
 import { CImage, Card, CardButton, CardContent, CardFooter, CardHeader, CardRow, Container, HomeContainer, HomeHero, HomeWrapper, PageTitle, Row, Text, Title } from '../GlobalStyled'
 import {MdArrowForward} from 'react-icons/md'
 import { Email } from './Styled'
+import { useNavigate } from 'react-router-dom'
 
 
 export default function Home() {
+  const navigate = useNavigate()
   return (
     <>
       <HomeHero>
@@ -33,7 +35,7 @@ export default function Home() {
               <CardFooter>
                 <Row>
                   <Text></Text>
-                  <CardButton href='/Software-Development-Services'>Explore More On Software Development <MdArrowForward/> </CardButton>
+                  <CardButton onClick={()=>navigate('/Software-Development-Services')}>Explore More On Software Development <MdArrowForward/> </CardButton>
                 </Row>
               </CardFooter>
             </Card>
@@ -53,7 +55,7 @@ export default function Home() {
               <CardFooter>
                 <Row>
                   <Text></Text>
-                  <CardButton href='/Data-Analysis-Services'>Explore More On Data Analytics <MdArrowForward/> </CardButton>
+                  <CardButton onClick={()=>navigate('/Data-Analysis-Services')}>Explore More On Data Analytics <MdArrowForward/> </CardButton>
                 </Row>
               </CardFooter>
             </Card>
@@ -74,7 +76,7 @@ export default function Home() {
               <CardFooter>
                 <Row>
                   <Text></Text>
-                  <CardButton href='/AI-Services'>Explore More On Artificial Intelligence <MdArrowForward/> </CardButton>
+                  <CardButton onClick={()=>navigate('/AI-Services')}>Explore More On Artificial Intelligence <MdArrowForward/> </CardButton>
                 </Row>
               </CardFooter>
             </Card>
@@ -95,7 +97,7 @@ export default function Home() {
               <CardFooter>
                 <Row>
                   <Text></Text>
-                  <CardButton href='/Courses'>Explore More On Our Training Courses <MdArrowForward/> </CardButton>
+                  <CardButton onClick={()=>navigate('/Courses')}>Explore More On Our Training Courses <MdArrowForward/> </CardButton>
                 </Row>
               </CardFooter>
             </Card>

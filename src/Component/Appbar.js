@@ -2,13 +2,14 @@ import React from 'react'
 import { useState } from 'react'
 import styled from 'styled-components'
 import { MdClose, MdMenuOpen } from 'react-icons/md'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 export default function Appbar() {
+    const navigate = useNavigate()
     const [showMenu, setShowMenu] = useState(false)
   return (
     <Wrapper>
-        <BrandWrapper onClick={()=>window.location.pathname='/'}>
+        <BrandWrapper onClick={()=>navigate('/')}>
           <Brand>Dataware</Brand>
           <BrandText>Analytics</BrandText>
         </BrandWrapper>

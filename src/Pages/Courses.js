@@ -3,10 +3,12 @@ import { CardColumn,Body, Card, Image,Rows, Wrapper, Hero, HeroWrapper, HeroCont
 import { ButtonLarge, Container, PageText, PageTitle, Text, Title } from '../GlobalStyled'
 import { CoursesData, } from '../data/Data'
 import {Rotate} from 'react-reveal'
+import { useNavigate } from 'react-router-dom'
 
 export const Naira = new Intl.NumberFormat('ng-NG')
 
 export default function Courses() {
+    const navigate = useNavigate()
     useEffect(()=>{
         return(()=>document.title = 'Our Courses')
       })
@@ -41,7 +43,7 @@ export default function Courses() {
                                 <PageText>{data.time}</PageText>
                                 <PageText>{data.duration}</PageText>
                                 <PageText>&#8358;{Naira.format(data.price)}</PageText>
-                                <ButtonLarge onClick={()=>window.location.pathname=data.link}>See Details</ButtonLarge>
+                                <ButtonLarge onClick={()=>navigate(data.link)}>See Details</ButtonLarge>
                                 </CardColumn>
                                 <Image alt='Software Picture' src={data.image} />
                             </Rows>

@@ -151,8 +151,8 @@ align-items: center;
     flex-direction: column;
 }
 `
-export const CardButton = styled.a`
-color: inherit;
+export const CardButton = styled.div`
+color: inherit; 
 padding: 10px;
 cursor: pointer;
 `
