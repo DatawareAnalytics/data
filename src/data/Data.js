@@ -3,21 +3,21 @@ export const MLData = {
     title:'Artificial Intelligence',
     content:'We develop the strategic, technical, and human capabilities that take companies from vision to value—and create truly data-driven organizations.',
     image:require('../asset/images/ml2.webp'),
-    link:'/AI-Services',
+    link:'/data/AI-Services',
     reverse:false,
 }
 export const CSData = {
     title:'Cyber Security',
     content:'Our broad cybersecurity knowledge and deep industry expertise allow us to develop next-gen cybersecurity solutions from consulting, implementation and managed services to protect your business end-to-end.',
     image:require('../asset/images/cs4.jpeg'),
-    link:'/Cyber-Security-Services',
+    link:'/data/Cyber-Security-Services',
     reverse:true,
 }
 export const SoftData = {
         title:'Software Development',
         content:'Our Software Development services spans different technologies and business goal. we serve you the best because we are the best. our development team work on Website and Web Application, Mobile and Desktop Application, Airtficial Intelligence and Machine Learning Application.',
         image:require('../asset/images/isoftt.webp'),
-        link:'/Software-Development-Services',
+        link:'/data/Software-Development-Services',
         reverse:false,
 }
 
@@ -25,7 +25,7 @@ export const DataAnalysis = {
     title:'Data Analysis',
     content:'As a data analytics consulting firm, we help clients unlock decision intelligence and evolve into an insight-driven organization through augmented analytics, agile Business Intelligence (BI) systems and advanced data practices. Gain transparency where it matters the most, with a holistic view of global value chains from experts embedded in markets across the world.',
     image:require('../asset/images/data1.jpg'),
-    link:'/Data-Analysis-Services',
+    link:'/data/Data-Analysis-Services',
     reverse:true,
 }
 
@@ -35,7 +35,7 @@ export const CoursesData = [
         title:'Front-End Developer Cohort-August-2023',
         content:' A career as a front-end web developer can flex your creativity and problem-solving skills. As a field that is constantly evolving to incorporate new technology, front-end development can reward those who like to learn new things and face challenges.',
         image:require('../asset/images/istk.jpg'),
-        link:'/Front-end-engineer-certification',
+        link:'/data/Front-end-engineer-certification',
         price:'25000',
         dates:'5/08/2023',        
         duration:'6 weeks',
@@ -45,7 +45,7 @@ export const CoursesData = [
         title:'Introduction to Machine Learning',
         content:'More data is created and collected every day. Machine learning models can find patterns in big data to help us make data-driven decisions. In this skill path, you will learn to build machine learning models using regression, classification, and clustering methods. Along the way, you will create real-world projects to demonstrate your new skills.',
         image:require('../asset/images/ml0.jpeg'),
-        link:'/Machine-learning-certification',
+        link:'/data/Machine-learning-certification',
         price:'30000',
         dates:'11/08/2023',
         duration:'6 weeks',
@@ -55,7 +55,7 @@ export const CoursesData = [
         title:'Back-End Developer Cohort-August-2023',
         content:'No matter what you’re building, having a strong foundation is crucial — that’s where Back-End Engineers come in. Get the specialized skills and portfolio you need to start your career as a Back-End Engineer in this curated career path.',
         image:require('../asset/images/sd1.jpg'),
-        link:'/Back-end-engineer-certification',
+        link:'/data/Back-end-engineer-certification',
         price:'25000',
         dates:'12/08/2023',
         duration:'6 weeks',
@@ -66,7 +66,7 @@ export const CoursesData = [
     //     title:'Data Science With Python Cohort-August-2023 ',
     //     content:'Python is the programming language of choice for data scientists. Although it wasn’t the first primary programming language, its popularity has grown throughout the years. In this workshop we will explore all the python libraries needed for Data Science/Analysis such as Pandas, Numpy, Matplotlib, Seanborn, Scipy And much more',
     //     image:require('../asset/images/py2.jpeg'),
-    //     link:'/data-science-with-python-certification',
+    //     link:'/data/data-science-with-python-certification',
     //     price:' 15000',
     //     dates:'03/08/2023',
     //     duration:'4 Weeks',
@@ -76,7 +76,7 @@ export const CoursesData = [
         title:'Data Analysis Cohort-August-2023',
         content:'All companies use data now, and most of it is stored in databases. In this Skill Path, you will use SQL queries to create databases, pull data from databases, and analyze the results. You will practice your skills with real-world marketing and user analysis case studies, and prepare for technical interviews. Interested in a career as a data analyst? This Skill Path is the perfect place to start.',
         image:require('../asset/images/istk.jpg'),
-        link:'/data-analytics-certification',
+        link:'/data/data-analytics-certification',
         price:'25000',
         dates:'6/08/2023',        
         duration:'6 weeks',
@@ -86,7 +86,7 @@ export const CoursesData = [
         title:'Cyber Security Professional Cohort-August-2023',
         content: 'During our Cyber Security Training, attendant will become familiar with various essential topics like preventing cyber-attacks, browsing securely, artificial ignorance, Social Engineering , risk management, etc. This Cyber Security Training will help you to begin their career as Cyber Security professionals in multinational companies',
         image:require('../asset/images/cs5.jpeg'),
-        link:'/Courses',//link:'/cyber-security-certification',
+        link:'/data/Courses',//link:'/cyber-security-certification',
         price:'30000',
         dates:'coming very soon',
         duration:'6 weeks'

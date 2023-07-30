@@ -28,20 +28,20 @@ export default function App() {
         <Routes>
             <Route path='/' exact index element={<Home/>} />
             <Route path='/*' exact index element={<Home/>} />
-            <Route path='/Courses' element={<Courses/>} />
-            <Route path='/About' element={<About/>} />
-            <Route path='/Our-Services' element={<Services/>} />
-            <Route path='/Data-Analysis-Services' element={<DataServices/>} />
-            <Route path='/Software-Development-Services' element={<WebDev/>} />
-            <Route path='/AI-Services' element={<AI/>} />
-            <Route path='/Cyber-Security-Services' element={<CyberServices/>} />
-            <Route path='/Machine-learning-certification' element={<ML/>} />
-            <Route path='/Front-end-engineer-certification' element={<Frontend/>} />
-            <Route path='/Data-science-with-python-certification' element={<DataPython/>} />
-            <Route path='/Back-end-engineer-certification' element={<Backend/>} />
-            <Route path='/data-analytics-certification' element={<DataAnalysis/>} />
-            <Route path='/full-stack-development-certification' element={<Full/>} />
-            <Route path='/cyber-security-certification' element={<Security/>} />
+            <Route path='/data/Courses' element={<Courses/>} />
+            <Route path='/data/About' element={<About/>} />
+            <Route path='/data/Our-Services' element={<Services/>} />
+            <Route path='/data/Data-Analysis-Services' element={<DataServices/>} />
+            <Route path='/data/Software-Development-Services' element={<WebDev/>} />
+            <Route path='/data/AI-Services' element={<AI/>} />
+            <Route path='/data/Cyber-Security-Services' element={<CyberServices/>} />
+            <Route path='/data/Machine-learning-certification' element={<ML/>} />
+            <Route path='/data/Front-end-engineer-certification' element={<Frontend/>} />
+            <Route path='/data/Data-science-with-python-certification' element={<DataPython/>} />
+            <Route path='/data/Back-end-engineer-certification' element={<Backend/>} />
+            <Route path='/data/data-analytics-certification' element={<DataAnalysis/>} />
+            <Route path='/data/full-stack-development-certification' element={<Full/>} />
+            <Route path='/data/cyber-security-certification' element={<Security/>} />
         </Routes>
       </Container>
       <Footer/>
