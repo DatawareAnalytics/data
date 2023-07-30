@@ -6,10 +6,10 @@ export default function Footer() {
     <Wrapper>
           <Row>
             <Container>
-                <Link onClick={()=>window.location.pathname='/'}>Home</Link>
-                <Link onClick={()=>window.location.pathname='/Our-Services'}>Services</Link>
-                <Link onClick={()=>window.location.pathname='/Courses'}>Training</Link>
-                <Link onClick={()=>window.location.pathname='/About'}>About</Link> 
+                <Link onClick={()=>window.location.pathname='/https://datawareanalytics.github.io/'}>Home</Link>
+                <Link onClick={()=>window.location.pathname='/https://datawareanalytics.github.io/Our-Services'}>Services</Link>
+                <Link onClick={()=>window.location.pathname='/https://datawareanalytics.github.io/Courses'}>Training</Link>
+                <Link onClick={()=>window.location.pathname='/https://datawareanalytics.github.io/About'}>About</Link> 
             </Container>
             <Container>
                 <h3>Contact Us</h3>
