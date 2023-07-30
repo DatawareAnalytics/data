@@ -33,7 +33,7 @@ export default function Home() {
               <CardFooter>
                 <Row>
                   <Text></Text>
-                  <CardButton href='/data/Software-Development-Services'>Explore More On Software Development <MdArrowForward/> </CardButton>
+                  <CardButton href='/Software-Development-Services'>Explore More On Software Development <MdArrowForward/> </CardButton>
                 </Row>
               </CardFooter>
             </Card>
@@ -53,7 +53,7 @@ export default function Home() {
               <CardFooter>
                 <Row>
                   <Text></Text>
-                  <CardButton href='/data/Data-Analysis-Services'>Explore More On Data Analytics <MdArrowForward/> </CardButton>
+                  <CardButton href='/Data-Analysis-Services'>Explore More On Data Analytics <MdArrowForward/> </CardButton>
                 </Row>
               </CardFooter>
             </Card>
@@ -74,7 +74,7 @@ export default function Home() {
               <CardFooter>
                 <Row>
                   <Text></Text>
-                  <CardButton href='/data/AI-Services'>Explore More On Artificial Intelligence <MdArrowForward/> </CardButton>
+                  <CardButton href='/AI-Services'>Explore More On Artificial Intelligence <MdArrowForward/> </CardButton>
                 </Row>
               </CardFooter>
             </Card>
@@ -95,7 +95,7 @@ export default function Home() {
               <CardFooter>
                 <Row>
                   <Text></Text>
-                  <CardButton href='/data/Courses'>Explore More On Our Training Courses <MdArrowForward/> </CardButton>
+                  <CardButton href='/Courses'>Explore More On Our Training Courses <MdArrowForward/> </CardButton>
                 </Row>
               </CardFooter>
             </Card>
