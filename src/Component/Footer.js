@@ -6,10 +6,10 @@ export default function Footer() {
     <Wrapper>
           <Row>
             <Container>
-                <Link onClick={()=>window.location.pathname='/https://datawareanalytics.github.io/'}>Home</Link>
-                <Link onClick={()=>window.location.pathname='/https://datawareanalytics.github.io/Our-Services'}>Services</Link>
-                <Link onClick={()=>window.location.pathname='/https://datawareanalytics.github.io/Courses'}>Training</Link>
-                <Link onClick={()=>window.location.pathname='/https://datawareanalytics.github.io/About'}>About</Link> 
+                <Link href='/'>Home</Link>
+                <Link href='/Our-Services'>Services</Link>
+                <Link href='/Courses'>Training</Link>
+                <Link href='/About'>About</Link> 
             </Container>
             <Container>
                 <h3>Contact Us</h3>
@@ -53,13 +53,16 @@ background-color: transparent;
   flex-direction: column;
 }
 `
-const Link = styled.div`
+const Link = styled.a`
 padding: 10px;
 font-size: 1em;
 font-weight: bold;
 cursor: pointer;
 color: inherit;
 width: 100%;
+list-style: none;
+list-style-type: none;
+text-decoration: none;
 background-color: transparent;
 `
 const Text = styled.div`
