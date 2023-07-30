@@ -27,7 +27,7 @@ export default function App() {
       <Container>
         <Routes>
             <Route path='/' exact index element={<Courses/>} />
-            <Route path='/*' exact index element={<Home/>} />
+            {/* <Route path='/*' exact index element={<Home/>} /> */}
             <Route path='/data/Courses' element={<Courses/>} />
             <Route path='/data/About' element={<About/>} />
             <Route path='/data/Our-Services' element={<Services/>} />
