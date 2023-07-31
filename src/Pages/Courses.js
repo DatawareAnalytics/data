@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { CardColumn,Body, Card, Image,Rows, Wrapper, Hero, HeroWrapper, HeroContent, Grid, ListText, Email, PayCardTitle, PayCardText } from './Styled'
-import { ButtonLarge, Container, PageText, PageTitle, Text, Title } from '../GlobalStyled'
+import { ButtonLarge, PageText, PageTitle, Title } from '../GlobalStyled'
 import { CoursesData, } from '../data/Data'
 import {Rotate} from 'react-reveal'
 import { useNavigate } from 'react-router-dom'
@@ -18,14 +18,6 @@ export default function Courses() {
         <HeroWrapper>
             <HeroContent>
                 <Title>Dataware Analytics Training Programs</Title>
-                <Card>
-                    <Container>
-                        <Text>We Provide you the best learning interaction with our instructors. Our Instroctors are industry experts with relative experience over decades. We've trained thousands of candidate from different background and professions who's are now working with top tech services providers, you can join them in our next COHORTS.</Text>
-                        <Text></Text>
-                        <Text>Our goal is to take you to the top in your career or to help you switch to tech sector and get your seat at end of our programs.</Text>
-                        <Text>You choose your favourite course that relate to the carrer you want in IT and we trained you with the best efforts and experiencies that drag you to top.</Text>
-                    </Container>
-                </Card>
             </HeroContent>
         </HeroWrapper>
         </Hero>

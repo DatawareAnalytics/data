@@ -3,7 +3,10 @@ import styled from 'styled-components'
 export const Hero = styled.div`
 width: 100%;
 display: flex;
+background-color: transparent;
 background-color: #330033;
+background-image: url('../asset/images/hr1.png');
+background-repeat: no-repeat;
 justify-content: center;
 padding: 10px;
 padding-bottom: 2em;
